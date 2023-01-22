@@ -12,5 +12,9 @@ public class HelloWorld
                 list.Add(item);
             }
         }
+
+        foreach (string item in list) {
+            Console.WriteLine(item);
+        }
     }
 }
